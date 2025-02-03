@@ -9,6 +9,9 @@ authors = [
 ]
 readme = "README.rst"
 requires-python = ">=3.8"
+requires = [
+    "audioop-lts; python_version >= '3.13'"
+]
 dynamic = ["version", "description"]
 urls.Home = "https://github.com/beetbox/audioread"
 classifiers = [
